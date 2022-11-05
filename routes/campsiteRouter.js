@@ -9,7 +9,7 @@ campsiteRouter
 		next();
 	})
 	.get((req, res) => {
-		res.end('Will send all the campsites to you!');
+		res.end('Will send all the campsites to you');
 	})
 	.post((req, res) => {
 		res.end(`Will add the campsite: ${req.body.name} with description: ${req.body.description}`);
